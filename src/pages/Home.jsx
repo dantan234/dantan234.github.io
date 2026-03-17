@@ -6,7 +6,7 @@ export default function Home() {
       <section id="home" className="relative w-full min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
         <div className="absolute inset-0 z-0 pointer-events-none select-none" aria-hidden="true">
           <img
-            src="/public/homepage-hero.jpg"
+            src="/homepage-hero.jpg"
             alt=""
             className="w-full h-full object-cover object-top md:object-center opacity-45 saturate-100"
           />
