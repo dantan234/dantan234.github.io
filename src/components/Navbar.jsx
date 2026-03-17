@@ -50,7 +50,7 @@ export default function Navbar() {
       poster: "/visual-odometry-thumb.jpg",
       video: "/visual-odometry-hero.mov",
     },
-    { key: "example-3", name: "Example 3", path: "/projects/example-3", tagline: "Deployment and monitoring" },
+    { key: "example-3", name: "Example 3", path: "/projects/example-3", tagline: "Example 3 subtitle" },
   ];
 
   const playPreview = (key) => {

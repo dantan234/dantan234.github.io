@@ -69,8 +69,8 @@ export default function Home() {
             </p>
             <p className="text-slate-500">
               With a background in mechanical engineering and AI,
-              I build systems that understand the world. When I&apos;m not coding,
-              I&apos;m likely at the bouldering gym or on the tennis court.
+              I build systems that understand the world. When I&apos;m not working,
+              you can find me at a new coffeeshop or out on a run.
             </p>
             <Link to="/about" className="inline-block text-blue-400 font-medium hover:underline">
               Read my full story →

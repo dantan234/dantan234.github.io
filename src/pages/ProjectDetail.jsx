@@ -37,10 +37,26 @@ export default function ProjectDetail() {
           <p className="mt-4 text-xl text-slate-300">{project.subtitle}</p>
         </>
       )}
-      <p className="mt-8 text-lg leading-relaxed text-slate-400">{project.summary}</p>
+      <div className="mt-8 space-y-6">
+        {(project.summaryParagraphs ?? [project.summary]).map((paragraph) => (
+          <p key={paragraph} className="text-lg leading-relaxed text-slate-400">
+            {paragraph}
+          </p>
+        ))}
+      </div>
       <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 p-6">
-        <p className="text-slate-300">
-          Replace this section with your project narrative, architecture, stack, results, and media.
+        {project.detailsLink && (
+          <a
+            href={project.detailsLink}
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-300 transition hover:text-blue-200 hover:underline"
+          >
+            {project.detailsLink}
+          </a>
+        )}
+        <p className={`text-slate-300 ${project.detailsLink ? "mt-4" : ""}`}>
+          {project.detailsNote ?? "Details coming soon."}
         </p>
       </div>
     </div>
