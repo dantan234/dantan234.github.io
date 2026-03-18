@@ -50,7 +50,6 @@ export default function Navbar() {
       poster: "/visual-odometry-thumb.jpg",
       video: "/visual-odometry-hero.mov",
     },
-    { key: "example-3", name: "Example 3", path: "/projects/example-3", tagline: "Example 3 subtitle" },
   ];
 
   const playPreview = (key) => {
@@ -118,7 +117,7 @@ export default function Navbar() {
             : "-translate-y-6 opacity-0 pointer-events-none"
         }`}
       >
-        <div className="mx-auto grid max-w-7xl grid-cols-3 gap-16 px-8 py-10">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-16 px-8 py-10">
           {projectLinks.map((project) => (
             <Link
               key={project.key}

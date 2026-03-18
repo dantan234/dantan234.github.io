@@ -20,11 +20,4 @@ export const projects = [
     detailsLink: "https://github.com/dantan234/visual_odometry",
     detailsNote: "Details coming soon.",
   },
-  {
-    slug: "example-3",
-    title: "Example 3",
-    subtitle: "example 3 subtitle",
-    summary: "example 3 summary",
-    detailsNote: "Details coming soon.",
-  },
 ];
