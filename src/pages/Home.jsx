@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-100 max-w-xl mx-auto leading-relaxed font-light [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]">
-            I&apos;m an AI engineer specializing in computer vision and LLM&apos;s. Currently working on visual odometry for driving safety.
+            I&apos;m a Robotics and AI engineer specializing in computer vision. Currently working on visual odometry for driving safety.
           </p>
 
           <div className="flex flex-col gap-4 justify-center items-center pt-4">
