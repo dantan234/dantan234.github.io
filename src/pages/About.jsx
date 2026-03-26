@@ -1,7 +1,7 @@
 export default function About() {
   const paragraphs = [
     "Hi! I'm Daniel -",
-    "I'm an AI Engineer with a Master's of Science in Artificial Intelligence from The University of Texas at Austin. I also have a Bachelor of Science in Mechanical Engineering from Texas A&M University.",
+    "I'm a Robotics and AI Engineer with a Master's of Science in Artificial Intelligence from The University of Texas at Austin. I also have a Bachelor of Science in Mechanical Engineering from Texas A&M University.",
     "My career has been a unique journey so far. I started my career as a mechanical engineer out of college in 2018, then transitioned into a robotics engineering role in 2021. From there, I was recruited by Tesla in 2023 to work as a Manufacturing Process Automation Engineer for their Cybertruck program.",
     "At Tesla, I developed automated plasma-cutting processes using industrial robotic cells for the Cybertruck Gigacastings and owned end-to-end commissioning of equipment from design to production launch. My process was absolutely integral to the launch of the Cybertruck, with the very first production vehicles processed by the equipment that I commissioned!",
     "Since then, I have transitioned into the field of software and AI, most recently working as a Graduate Machine Learning Engineer Intern with Dell Technologies in Round Rock, TX. At Dell, I helped integrate AI into business workflows in Finance by creating applications in Python to automate business forecasting scripts. I also worked on integrating Azure AI translation into document processing pipelines, utilizing LLMs to automate detection of non-standard clauses in business contracts.",
